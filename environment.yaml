@@ -1,0 +1,14 @@
+# run: conda env create --file environment.yaml
+
+name: SA-ABI
+dependencies:
+  - python==3.10
+  - pip
+  - scipy
+  - seaborn
+  - matplotlib
+  - pandas
+  - xarray
+  - cartopy
+  - pip:
+    - tensorflow==2.10.1

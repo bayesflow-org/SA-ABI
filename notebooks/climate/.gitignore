@@ -1,0 +1,22 @@
+old-config
+legacy
+
+# Ignore almost all checkpoints
+checkpoints/*
+
+# except for these, include them
+!checkpoints/batched_dropout3/dropout_0_4_2
+!checkpoints/batched_separate_dropout2
+
+# but even then, ignore the memory files and not executed validation notebooks
+checkpoints/*/memory.pkl
+checkpoints/*/*/memory.pkl
+checkpoints/*/2_validate.ipynb
+checkpoints/*/*/2_validate.ipynb
+
+# Ignore almost all config files
+config/*
+
+# except for these, include them
+!config/batched_dropout3/dropout_0_4_2.py
+!config/batched_separate_dropout2/

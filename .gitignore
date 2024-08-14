@@ -1,0 +1,24 @@
+# Folders
+data
+figures
+archive
+
+# Python 
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Tensorflow checkpoints
+net_checkpoints*
+ensemble_checkpoints*
+typical_ensemble_scaled*
+networks_ckpt_powerscaled*
+networks_ckpt_unscaled*
+benchmark_large*
+benchmark_small*
+benchmark
+single_nets
+
+# Figures
+*.pdf
+

@@ -1,0 +1,1 @@
+The main code generating the results table in the paper is contained in the three `evaluate_benchmark` Jupyter notebooks, whereas the corresponding neural networks are trained via `train_benchmark.py`. `powerscaled_net_investigation` features further senstivity analyses using a powerscaled network and generates all figures of the main text.
