@@ -2,7 +2,7 @@
 
 <img src="img/sensitivity_main_figure.png">
 
-This repository contains the code for running and reproducing the experiments from the paper "Sensitivity-Aware Amortized Bayesian Inference".
+This repository contains the code for running and reproducing the experiments from the paper [Sensitivity-Aware Amortized Bayesian Inference](https://openreview.net/forum?id=Kxtpa9rvM0), published in Transactions on Machine Learning Research ([arXiv version](https://arxiv.org/abs/2310.11122)).
 
 SA-ABI is a simulation-based method for fully amortized sensitivity analysis across all major dimensions of a Bayesian model: likelihood, prior, approximator, and data. This is achieved by training a deep ensemble of neural networks to amortize over a familiy of computational models.
 
@@ -10,14 +10,16 @@ The code depends on the [BayesFlow](https://github.com/stefanradev93/BayesFlow) 
 
 ## Cite
 
-The preprint can be cited as:
+The article can be cited as:
 
 ```bibtex
-@article{elsemuller2023sensitivity,
-  title={Sensitivity-aware amortized bayesian inference},
-  author={Elsem{\"u}ller, Lasse and Olischl{\"a}ger, Hans and Schmitt, Marvin and B{\"u}rkner, Paul-Christian and K{\"o}the, Ullrich and Radev, Stefan T},
-  journal={arXiv preprint arXiv:2310.11122},
-  year={2023}
+@article{elsemueller2024sensitivity,
+  title={Sensitivity-Aware Amortized Bayesian Inference},
+  author={Lasse Elsem{\"u}ller and Hans Olischl{\"a}ger and Marvin Schmitt and Paul-Christian B{\"u}rkner and Ullrich Koethe and Stefan T. Radev},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2024},
+  url={https://openreview.net/forum?id=Kxtpa9rvM0},
 }
 ```
 
